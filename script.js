@@ -27,6 +27,8 @@ console.log(userName);
 // let Person = "Sara";
 
 
-
 // we can use this one but in some cases this creates some problems
 // let name = "Aytac";
+
+// let firstName = "aytacka";
+// console.log(firstName);
