@@ -45,16 +45,46 @@
 ? DATA TYPES
 */
 
-let jsIsFun = true;
-console.log(jsIsFun);
-console.log(typeof jsIsFun);
+// let jsIsFun = true;
+// console.log(jsIsFun);
+// console.log(typeof jsIsFun);
 
-jsIsFun = "yes sure!";
-console.log(typeof jsIsFun);
+// jsIsFun = "yes sure!";
+// console.log(typeof jsIsFun);
 
 // undefined data type
-let age;
-console.log(age); //it gives us undefined 
-console.log(typeof age); //it also gives us undefined
+// let age;
+// console.log(age); //it gives us undefined 
+// console.log(typeof age); //it also gives us undefined
 
-console.log(typeof null); //output object (it is a bug)
+// console.log(typeof null); //output object (it is a bug)
+
+
+/* 
+? Var Let Const
+*/
+// let age = 22;
+// age = 18;
+// console.log(age);
+
+// in output we see error that we can mutate const variable
+/*const birthYear = 2002;
+birthYear = 1000;
+console.log(birthYear);
+*/
+// var job = "programmer";
+// job = "artist";
+// console.log(job);
+
+/*
+? Basic operators
+*/
+
+
+
+
+
+
+
+
+
