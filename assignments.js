@@ -61,7 +61,14 @@
 // "million people speak" + " " + language; 
 // console.log(description);
 
+// ^ Strings template literals
 
+let country = "Portugal";
+let countrty2 = "Europe";
+let portugalPopulation = 11;
+let language = "portuguese";
+
+console.log(`${country} is in ${countrty2} and its ${portugalPopulation} million people speak ${language} `)
 
 
 

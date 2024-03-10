@@ -76,13 +76,10 @@ console.log(birthYear);
 // job = "artist";
 // console.log(job);
 
-/*
-? Basic operators
-*/
+// ? Basic operators
 
-/* 
-& Math operators
-*/
+// & Math operators
+
 // const now = 2033;
 // const aytacAge = now - 2002;
 // const timaAge = now - 1998;
@@ -94,10 +91,9 @@ console.log(birthYear);
 // const fullName = "Allahverdiyeva";
 // console.log(firstName + ' ' + fullName);
 
+ 
+// & Assignment operators
 
-/* 
-& Assignment operators
-*/
 // let x = 2 + 4; // x = 6
 // x += 5; // x = x + 5
 // console.log(x);
@@ -106,34 +102,53 @@ console.log(birthYear);
 
 // console.log(x);
 
-/* 
-& Comparison opoerators
- */
+// & Comparison opoerators
+
 // console.log(aytacAge > timaAge); //> < <= >=
 // const isFullAge = aytacAge > 18;
 // console.log(isFullAge);
 // console.log( now - 2002 > now - 1998);
 
-/*
-~ Operator Precedence (Приоритет оператора)
-*/
-const now = 2024;
-const aytacAge = now - 2002;
-const timaAge = now - 1998;
+// ~ Operator Precedence (Приоритет оператора)
 
-console.log(now - 2002 > now - 1998);
+// const now = 2024;
+// const aytacAge = now - 2002;
+// const timaAge = now - 1998;
 
-let x, y;
-x = y = 25 - 10 - 5;  // x=y=10 x=10 y=10
-console.log(x,y);
+// console.log(now - 2002 > now - 1998);
 
+// let x, y;
+// x = y = 25 - 10 - 5;  // x=y=10 x=10 y=10
+// console.log(x,y);
 
-const averageAge = (aytacAge + timaAge) / 2;
-console.log(aytacAge, timaAge, averageAge);
+// const averageAge = (aytacAge + timaAge) / 2;
+// console.log(aytacAge, timaAge, averageAge);
 
-
+// & String Template literals
 
 
+const firstName = "Aytac";
+const birthYear = 2002;
+const year = 2024;
+const job = "Programmer";
+const aytac = " i am " + firstName + " a " + (year - birthYear) + " years old " + job;
+console.log(aytac);
+
+
+const aytacNew = `I am ${firstName} a ${year - birthYear} old ${job}`;
+console.log(aytacNew);
+
+console.log(`Just a regular string...`);
+
+// ^ this two methods shows the same output
+
+console.log('string with \n\
+multiple \n\
+lines ');
+
+console.log(`string with 
+mulpitle
+lines `);
 
 
 
