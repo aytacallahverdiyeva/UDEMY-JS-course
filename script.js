@@ -83,36 +83,55 @@ console.log(birthYear);
 /* 
 & Math operators
 */
-const now = 2033;
-const aytacAge = now - 2002;
-const timaAge = now - 1998;
-console.log(aytacAge, timaAge);
+// const now = 2033;
+// const aytacAge = now - 2002;
+// const timaAge = now - 1998;
+// console.log(aytacAge, timaAge);
 
-console.log(aytacAge / 2 , aytacAge * 2);
+// console.log(aytacAge / 2 , aytacAge * 2);
 
-const firstName = "Aytac";
-const fullName = "Allahverdiyeva";
-console.log(firstName + ' ' + fullName);
+// const firstName = "Aytac";
+// const fullName = "Allahverdiyeva";
+// console.log(firstName + ' ' + fullName);
 
 
 /* 
 & Assignment operators
 */
-let x = 2 + 4; // x = 6
+// let x = 2 + 4; // x = 6
 // x += 5; // x = x + 5
 // console.log(x);
-x++; // x = x + 1
-x--; // x = x - 1
+// x++; // x = x + 1
+// x--; // x = x - 1
 
-console.log(x);
+// console.log(x);
 
 /* 
 & Comparison opoerators
+ */
+// console.log(aytacAge > timaAge); //> < <= >=
+// const isFullAge = aytacAge > 18;
+// console.log(isFullAge);
+// console.log( now - 2002 > now - 1998);
+
+/*
+~ Operator Precedence (Приоритет оператора)
 */
-console.log(aytacAge > timaAge); //> < <= >=
-const isFullAge = aytacAge > 18;
-console.log(isFullAge);
-console.log( now - 2002 > now - 1998);
+const now = 2024;
+const aytacAge = now - 2002;
+const timaAge = now - 1998;
+
+console.log(now - 2002 > now - 1998);
+
+let x, y;
+x = y = 25 - 10 - 5;  // x=y=10 x=10 y=10
+console.log(x,y);
+
+
+const averageAge = (aytacAge + timaAge) / 2;
+console.log(aytacAge, timaAge, averageAge);
+
+
 
 
 
