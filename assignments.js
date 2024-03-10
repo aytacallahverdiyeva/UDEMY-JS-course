@@ -35,7 +35,31 @@
 /*
 ^ Basic operators
 */
+let population = 10446000;
+let halfPopulation = population / 2;
+console.log(halfPopulation);
 
+population++;
+console.log(population);
+
+let populationFinland = 6000000;
+let populationOfFinlandisMore = population < populationFinland;
+console.log(populationOfFinlandisMore);
+
+let averallpop = 33000000;
+let averallpopIsMore = averallpop > population;
+console.log(averallpopIsMore);
+
+
+let country = "Portugal";
+let countrty2 = "Europe";
+let portugalPopulation = 11;
+let language = "portuguese";
+// let description = 'Portugal is in Europe, and its 11 million people speak portuguese';
+const description = 
+country + " " + "is in" + " " + countrty2 + ", and its" + " " + portugalPopulation + " " + 
+"million people speak" + " " + language; 
+console.log(description);
 
 
 
