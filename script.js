@@ -127,28 +127,48 @@ console.log(birthYear);
 // & String Template literals
 
 
-const firstName = "Aytac";
-const birthYear = 2002;
-const year = 2024;
-const job = "Programmer";
-const aytac = " i am " + firstName + " a " + (year - birthYear) + " years old " + job;
-console.log(aytac);
+// const firstName = "Aytac";
+// const birthYear = 2002;
+// const year = 2024;
+// const job = "Programmer";
+// const aytac = " i am " + firstName + " a " + (year - birthYear) + " years old " + job;
+// console.log(aytac);
 
 
-const aytacNew = `I am ${firstName} a ${year - birthYear} old ${job}`;
-console.log(aytacNew);
+// const aytacNew = `I am ${firstName} a ${year - birthYear} old ${job}`;
+// console.log(aytacNew);
 
-console.log(`Just a regular string...`);
+// console.log(`Just a regular string...`);
 
 // ^ this two methods shows the same output
 
-console.log('string with \n\
-multiple \n\
-lines ');
+// console.log('string with \n\
+// multiple \n\
+// lines ');
 
-console.log(`string with 
-mulpitle
-lines`);
+// console.log(`string with 
+// mulpitle
+// lines`);
+
+// & Taking decisions: if/else statements
+
+const age = 18;
+
+if(age >= 18){
+	console.log('Aytac can drive');
+} else {
+	const yearsleft = 18 - age;
+	console.log(`Aytac cant drive a car please wait ${yearsleft} years` );
+}
+let century;
+const birthYear = 2001;
+if (birthYear <= 2000) {
+	century = 20;
+} else {
+	century = 21;
+}
+console.log(century);
+
 
 
 
