@@ -199,25 +199,63 @@ console.log(birthYear);
 
 // * Truthy falsy values
 
-console.log(Boolean(0));
-console.log(Boolean(NaN));
-console.log(Boolean('Aytac'));
-console.log(Boolean(10));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(NaN));
+// console.log(Boolean('Aytac'));
+// console.log(Boolean(10));
+// console.log(Boolean({}));
 
-const money = 0;
-if(money) {
-	console.log("You can spend it");
-} else {
-	console.log("Find a job");
-}
+// const money = 0;
+// if(money) {
+// 	console.log("You can spend it");
+// } else {
+// 	console.log("Find a job");
+// }
 
-let height;
-if(height) {
-	console.log("YAY height is defined");
-} else {
-	console.log("Height is undefinbed");
-}
+// let height;
+// if(height) {
+// 	console.log("YAY height is defined");
+// } else {
+// 	console.log("Height is undefinbed");
+// }
+
+// ^ Equality operators == vs ===
+
+const age = 18;
+if (age === 18) console.log("you just became adult");
+
+// 18 === 18 ----true
+// 18 === 16 ----false
+// "18" == 18 ---true
+// "18" === 18 ---false
+
+// const favourite = prompt("whats your favourite number?");
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite == 23) { // '23' == 23
+// 	console.log("cool 23 is good number");
+// }
+
+// const favourite2 = Number( prompt("what is yourrrrr fav num"));
+// console.log(favourite2);
+// if (favourite2 === 10) {
+// 	console.log("cool it is 10");
+// } else if (favourite2 === 3) {
+// 	console.log("it is 3");
+// } else if (favourite2 === 11) {
+// 	console.log("it is 11");	
+// } else {
+// 	console.log("it is not 10 or 3 or 11");
+// }
+
+// if( favourite2 !== 10) {
+// 	console.log("why not 10");
+// }
+
+
+
+
 
 
 
