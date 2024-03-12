@@ -197,6 +197,31 @@ console.log(birthYear);
 // n = n - 1; // 11 - 1 = 10
 // console.log(n);
 
+// * Truthy falsy values
+
+console.log(Boolean(0));
+console.log(Boolean(NaN));
+console.log(Boolean('Aytac'));
+console.log(Boolean(10));
+console.log(Boolean({}));
+
+const money = 0;
+if(money) {
+	console.log("You can spend it");
+} else {
+	console.log("Find a job");
+}
+
+let height;
+if(height) {
+	console.log("YAY height is defined");
+} else {
+	console.log("Height is undefinbed");
+}
+
+
+
+
 
 
 
