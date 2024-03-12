@@ -72,7 +72,14 @@
 
 // & Taking decisions: if/else statements
 
+// let popAz = 130000000;
+// let popSredne = 33000000;
 
+// if (popAz > popSredne) {
+// 	console.log("Portugal's population is 22 million below average");
+// } else {
+// 	console.log("something wrong ");
+// }
 
 
 
