@@ -171,34 +171,31 @@ console.log(birthYear);
 
 // & Type conversion and coercion
 // ~ Type conversion
-const inputYear = '2002'; //ouyput gives us string
-console.log(inputYear + 5); //output 20025 , its wrong
-console.log(Number(inputYear)); //output gives us a number not a string
+// const inputYear = '2002'; //ouyput gives us string
+// console.log(inputYear + 5); //output 20025 , its wrong
+// console.log(Number(inputYear)); //output gives us a number not a string
 
 // Number function converts to number
-console.log(Number(inputYear) + 5); //output will be 2002 + 5= 2007
+// console.log(Number(inputYear) + 5); //output will be 2002 + 5= 2007
 
-console.log(Number('Aytac')); //output will be Nan - not a number
+// console.log(Number('Aytac')); //output will be Nan - not a number
 
-console.log(typeof NaN); // number
+// console.log(typeof NaN); // number
 
-console.log(String(22));
+// console.log(String(22));
 
 // we can only convert to string to number and to a boolean 
 
 // ~ Type coercion
-console.log('I am ' + 23 + ' years old'); //converts 23 to string
-console.log('10' - '3' - 1); //converts strings to number
-console.log('10' + 1); //splits them to 101
-console.log('2' + '6'); //also splits to 26
-console.log('8' / 2); // 4
+// console.log('I am ' + 23 + ' years old'); //converts 23 to string
+// console.log('10' - '3' - 1); //converts strings to number
+// console.log('10' + 1); //splits them to 101
+// console.log('2' + '6'); //also splits to 26
+// console.log('8' / 2); // 4
 
-let n = '1' + 1; // 11
-n = n - 1; // 11 - 1 = 10
-console.log(n);
-
-
-
+// let n = '1' + 1; // 11
+// n = n - 1; // 11 - 1 = 10
+// console.log(n);
 
 
 
