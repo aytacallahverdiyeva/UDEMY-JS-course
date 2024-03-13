@@ -253,11 +253,30 @@ console.log(birthYear);
 // 	console.log("why not 10");
 // }
 
+// ~ Logical operators
 
+const speaksEnglish = true;
+const less50MillionPeople = true;
+const isNotIsland = false;
 
+const allConditionsRight =  speaksEnglish && less50MillionPeople && isNotIsland;
+if(allConditionsRight){
+	console.log("You should live in Portugal :)");
+} else {
+	console.log("Portugal does not meet your criteria :(");
+}
 
-
-
+// * Solution in the task
+let language = "english";
+let population = 44;
+let isIsland = false;
+let country = "Portugal";
+// language === "english" && population < 50 && !isIsland
+if (language === 'english' && population < 50 && !isIsland) {
+	console.log(`You should live in ${country} :)`);
+  } else {
+	console.log(`${country} does not meet your criteria :(`);
+  }
 
 
 
