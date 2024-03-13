@@ -91,20 +91,39 @@
 
 // * Equality operators == vs ===
 
-const numNeighbours = Number( prompt('How many neighbour countries does your contry have?'));
-if( numNeighbours === 1) {
-	console.log("only 1 border!");
-} else if ( numNeighbours > 1) {
-	console.log("more than 1 border");
+// const numNeighbours = Number( prompt('How many neighbour countries does your contry have?'));
+// if( numNeighbours === 1) {
+// 	console.log("only 1 border!");
+// } else if ( numNeighbours > 1) {
+// 	console.log("more than 1 border");
+// } else {
+// 	console.log("no borders");
+// }
+
+// ^ Logical operators
+
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense, !hasGoodVision);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if (shouldDrive) {
+// 	console.log('Sarah is able to drive');
+// } else {
+// 	console.log('Someone else sholud drive....');
+// }
+
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+if(hasDriversLicense && hasGoodVision && !isTired) {
+	console.log('Sarah is able to drive');
 } else {
-	console.log("no borders");
+	console.log('Someone sholud drive');
 }
-
-
-
-
-
-
 
 
 

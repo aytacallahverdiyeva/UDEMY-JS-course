@@ -221,8 +221,8 @@ console.log(birthYear);
 
 // ^ Equality operators == vs ===
 
-const age = 18;
-if (age === 18) console.log("you just became adult");
+// const age = 18;
+// if (age === 18) console.log("you just became adult");
 
 // 18 === 18 ----true
 // 18 === 16 ----false
