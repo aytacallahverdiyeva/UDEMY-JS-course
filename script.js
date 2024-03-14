@@ -280,45 +280,61 @@ console.log(birthYear);
 
 // & Switch cases
 
-const day = 'sunday';
+// const day = 'sunday';
 
-switch (day) {
-	case 'monday':  // day === monday
-		console.log('Plan course structure');
-		console.log('Go to coding meetup');
-	break;
-	case 'tuesday':
-		console.log("Prepare theory methods");
-	break;
-	case 'wednesday':
-	case 'thursday':
-		console.log("Write code examples");
-	break;
-	case 'friday':
-		console.log("record videos");
-	break;
-	case 'saturday':
-	case 'sunday':	
-		console.log("enjoy the weekend");
-	break;
-	default:
-		console.log("not a valid day");			
-} 
-
-
-if (day === 'monday') {
-
-} else if ( day === 'tuesday') {
-
-} else if ( day === "wednesday" || day === 'thursday') {
-
-} else if (day === 'friday') {
-
-} else if (day === 'saturday' || day === 'sunday') {
-	
-}
+// switch (day) {
+// 	case 'monday':  // day === monday
+// 		console.log('Plan course structure');
+// 		console.log('Go to coding meetup');
+// 	break;
+// 	case 'tuesday':
+// 		console.log("Prepare theory methods");
+// 	break;
+// 	case 'wednesday':
+// 	case 'thursday':
+// 		console.log("Write code examples");
+// 	break;
+// 	case 'friday':
+// 		console.log("record videos");
+// 	break;
+// 	case 'saturday':
+// 	case 'sunday':	
+// 		console.log("enjoy the weekend");
+// 	break;
+// 	default:
+// 		console.log("not a valid day");			
+// } 
 
 
+// if (day === 'monday') {
+
+// } else if ( day === 'tuesday') {
+
+// } else if ( day === "wednesday" || day === 'thursday') {
+
+// } else if (day === 'friday') {
+
+// } else if (day === 'saturday' || day === 'sunday') {
+
+// }
+
+// * Ternary operator
+
+// const age = 23;
+// // age >= 18 ? console.log('i can drink wine') : console.log('i can drink water');
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+
+// let drink2;
+// if(age >= 18){
+//     drink2 = 'wine';
+// } else {
+//     drink2 = 'water';
+// }
+// console.log(drink2);
+
+// console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
 
 
 

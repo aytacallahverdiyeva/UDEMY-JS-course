@@ -149,6 +149,16 @@
 //     default: console.log('Great language too :D');
 // }
 
+// ~ Ternary operator
 
+const population = 11;
+console.log(population > 33 ? " above average" : " below average")
+
+
+const country = 'Portugal';
+const population2 = 11;
+console.log(
+    `${country} population is ${population2 > 33 ? 'above' : 'below'} average`
+);
 
 
