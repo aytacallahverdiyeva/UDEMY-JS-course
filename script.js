@@ -255,31 +255,68 @@ console.log(birthYear);
 
 // ~ Logical operators
 
-const speaksEnglish = true;
-const less50MillionPeople = true;
-const isNotIsland = false;
+// const speaksEnglish = true;
+// const less50MillionPeople = true;
+// const isNotIsland = false;
 
-const allConditionsRight =  speaksEnglish && less50MillionPeople && isNotIsland;
-if(allConditionsRight){
-	console.log("You should live in Portugal :)");
-} else {
-	console.log("Portugal does not meet your criteria :(");
-}
+// const allConditionsRight =  speaksEnglish && less50MillionPeople && isNotIsland;
+// if(allConditionsRight){
+// 	console.log("You should live in Portugal :)");
+// } else {
+// 	console.log("Portugal does not meet your criteria :(");
+// }
 
 // * Solution in the task
-let language = "english";
-let population = 44;
-let isIsland = false;
-let country = "Portugal";
-// language === "english" && population < 50 && !isIsland
-if (language === 'english' && population < 50 && !isIsland) {
-	console.log(`You should live in ${country} :)`);
-  } else {
-	console.log(`${country} does not meet your criteria :(`);
-  }
+// let language = "english";
+// let population = 44;
+// let isIsland = false;
+// let country = "Portugal";
+// // language === "english" && population < 50 && !isIsland
+// if (language === 'english' && population < 50 && !isIsland) {
+// 	console.log(`You should live in ${country} :)`);
+//   } else {
+// 	console.log(`${country} does not meet your criteria :(`);
+//   }
+
+// & Switch cases
+
+const day = 'sunday';
+
+switch (day) {
+	case 'monday':  // day === monday
+		console.log('Plan course structure');
+		console.log('Go to coding meetup');
+	break;
+	case 'tuesday':
+		console.log("Prepare theory methods");
+	break;
+	case 'wednesday':
+	case 'thursday':
+		console.log("Write code examples");
+	break;
+	case 'friday':
+		console.log("record videos");
+	break;
+	case 'saturday':
+	case 'sunday':	
+		console.log("enjoy the weekend");
+	break;
+	default:
+		console.log("not a valid day");			
+} 
 
 
+if (day === 'monday') {
 
+} else if ( day === 'tuesday') {
+
+} else if ( day === "wednesday" || day === 'thursday') {
+
+} else if (day === 'friday') {
+
+} else if (day === 'saturday' || day === 'sunday') {
+	
+}
 
 
 
