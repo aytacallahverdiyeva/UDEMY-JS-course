@@ -11,3 +11,39 @@
 // const interface = 'Audio';
 // const private = 534;
 
+// & Functions
+
+function logger() {
+	console.log('my name is aytac');
+}
+// calling / running / invoking function
+logger();
+logger();
+logger();
+
+function fruitProcessor (apples, oranges){
+	// console.log(apples, oranges);
+	const juice = `juice with ${apples} apples and ${oranges} oranges.`;
+	return juice;
+}
+// ^ output of this two methods will be the same
+// const appleJuice = fruitProcessor(2,4); 
+// console.log(appleJuice);
+
+// console.log(fruitProcessor(2,8));
+
+const appleOrangeJuice = fruitProcessor(1, 3);
+console.log(appleOrangeJuice);
+
+
+
+
+
+
+
+
+
+
+
+
+
