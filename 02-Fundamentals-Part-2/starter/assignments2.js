@@ -42,3 +42,12 @@
 // const percUSA1 = percentageOfWorld1(332);
 
 // console.log(percPortugal1, percChina1, percUSA1);
+
+
+// & Arrow functions
+
+const percentageOfWorld1 = population => (population / 7900) * 100;
+
+const italiapop = percentageOfWorld1(55);
+const chinapop = percentageOfWorld1(1441);
+console.log(italiapop, chinapop);
